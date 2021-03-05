@@ -153,6 +153,11 @@
   <ItemGroup>
     <ClCompile Include="SudokuSolver.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cboard.h" />
+    <ClInclude Include="pboard.h" />
+    <ClInclude Include="solver.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
